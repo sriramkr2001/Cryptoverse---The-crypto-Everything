@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color:#212121;
+}
+
+
+ul {
+  list-style: none;
+}
+
+.coinlist-image {
+  width: 50px;
+}
+
+.coinlist-item {
+  display: flex;
+}
+
+.coinsummary {
+  border-color: white !important;
+  border-style: outset !important;
+}
+
+.coin-data-category {
+  font-size: 10px;
+}
+
+.delete-icon {
+  display: none;
+  position: absolute;
+  right: 6px;
+}
+
+.coin:hover .delete-icon {
+  display: block;
+}
+
+/* .mt-3{
+  margin-top: 20px;
+} */
+
+a:link{color:#FF0000;}        
+a:visited {color:black;} 
+a:hover {color:#FF00FF;}   
+a:active {color:#0000FF;}  
+ /* Selected link   */
+ .coin{
+  margin-bottom: 100px;
+}
+
+.sup-coin-label:hover{
+  /* background-color: rgb(5, 224, 140); */
+opacity: 0.9;
+background-color:"white";
+
+
+
+
+}
+
+.data-items{
+  border: 1px solid black;
+  /* height:70px; */
+  /* width:280px; */
+  margin-bottom:5px;
+  background-color:#E5E7EB;
+  border-radius: 5px;
+
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; */
+}
+
+.data-items:hover{
+
+  /* color: #FF5733; */
+  /* background-color: #FDE68A; */
+  transform: perspective(500px) translateZ(2px)
+
+}
+.data-wrapper{
+  /* border: 10px solid black */
+/* width: 960px; */
+/* background-color: #F3F4F6; */
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+}
+
+/* .whole-details-wrapper{
+  box-shadow: 0px 5px 15px #9CA3AF;
+} */
+.nav-bar-itemz:hover{
+  color:cyan !important;
+  /* font-size: 20px; */
+}
+
+.select2-container .select2-selection--single{
+  height:34px !important;
+}
+.select2-container--default .select2-selection--single{
+       border: 1px solid #ccc !important; 
+   border-radius: 0px !important; 
+}
+
+.auth-drop-down{
+  display: inline !important;
+  /* margin-left:110vh !important; */
+}
+
+.zzxc{
+  margin-top:10px !important;
+}
